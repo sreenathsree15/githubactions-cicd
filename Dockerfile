@@ -4,8 +4,8 @@ FROM eclipse-temurin:17-jdk
 # 2️⃣ Set working directory
 WORKDIR /app
 
-# 3️⃣ Copy your built JAR
-COPY target/githubactions-cicd.jar app.jar
+# 3️⃣ Copy the built JAR using the finalName
+COPY target/cicd-githubpipieline.jar app.jar
 
 # 4️⃣ Expose Spring Boot port
 EXPOSE 8080
