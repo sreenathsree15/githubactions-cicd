@@ -23,8 +23,8 @@
     <java.version>17</java.version>
 
     <!-- SonarCloud Properties -->
-    <sonar.projectKey>YourProjectKey</sonar.projectKey>
-    <sonar.organization>YourOrganizationName</sonar.organization>
+    <sonar.projectKey>sreenathsree15_githubactions-cicd</sonar.projectKey>
+    <sonar.organization>sreenathsree15</sonar.organization>
     <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     <sonar.login>${env.SONAR_TOKEN}</sonar.login>
 
@@ -34,6 +34,7 @@
         ${project.basedir}/target/site/jacoco/jacoco.xml
     </sonar.coverage.jacoco.xmlReportPaths>
 </properties>
+
 
     <dependencies>
 
