@@ -10,5 +10,6 @@ COPY target/cicd-githubpipieline.jar cicd-githubpipieline.jar
 # 4️⃣ Expose Spring Boot port
 EXPOSE 8080
 
+#hi
 # 5️⃣ Run the application
 ENTRYPOINT ["java", "-jar", "cicd-githubpipieline.jar"]
